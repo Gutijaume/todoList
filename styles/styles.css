@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f1faee;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+    
+}
+
+.principal {
+	background: #e63946;	
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+    background-image: url("https://juliosignificacion.files.wordpress.com/2013/11/comexsimpsons.jpg");
+    
+   
+  
+  
+  
+  
+
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario .boton {
+	background: none;
+	border: 1px solid #e63946;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+    color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+
+button {
+        font-family: "arial";
+        color: red;
+        background: black;
+        cursor: pointer;
+        padding: 5px 8px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 80%;
+        font-weight: 200;
+      
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
